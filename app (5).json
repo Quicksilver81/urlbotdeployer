@@ -1,0 +1,17 @@
+{
+    "name": "tinygifbot",
+    "description": "tinygifbot",
+    "stack": "container",
+    "keywords": [
+      "tinygifbot",
+      "gif"
+    ],
+    "website": "https://github.com/",
+    "repository": "https://github.com/",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
