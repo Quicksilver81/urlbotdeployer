@@ -47,12 +47,12 @@ if environ.get('UPDATE_EVERYTHING_WHEN_RESTART', 'False').lower() == 'true':
     scall("pip install --upgrade " + ' '.join(packages), shell=True)
 # update packages -
 
-REPO_URL = "https://github.com/Quicksilver81/urldeployer"
+REPO_URL = "https://github.com/Quicksilver81/abc"
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
-if ospath.isdir('urldeployer'):
-    srun(["rm", "-rf", "urldeployer"])
+if ospath.isdir('abc'):
+    srun(["rm", "-rf", "abc"])
 
 update = srun([f"git init -q \
                  && git config --global user.email huzunluartemis@tuta.io \
