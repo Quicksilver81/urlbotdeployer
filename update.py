@@ -51,8 +51,8 @@ REPO_URL = "https://github.com/Quicksilver81/URL-Yukleyici-1"
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
-if ospath.isdir('URL-Yukleyici-1'):
-    srun(["rm", "-rf", "URL-Yukleyici-1"])
+if ospath.isdir('urldeployer'):
+    srun(["rm", "-rf", "urldeployer")
 
 update = srun([f"git init -q \
                  && git config --global user.email huzunluartemis@tuta.io \
