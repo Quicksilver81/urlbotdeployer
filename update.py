@@ -47,7 +47,7 @@ if environ.get('UPDATE_EVERYTHING_WHEN_RESTART', 'False').lower() == 'true':
     scall("pip install --upgrade " + ' '.join(packages), shell=True)
 # update packages -
 
-REPO_URL = https://github.com/Quicksilver81/URL-Yukleyici-1
+REPO_URL = "https://github.com/Quicksilver81/URL-Yukleyici-1"
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
