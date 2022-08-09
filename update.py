@@ -51,8 +51,8 @@ REPO_URL = "https://github.com/Quicksilver81/abc"
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
-if ospath.isdir('abc'):
-    srun(["rm", "-rf", "abc"])
+if ospath.isdir('main'):
+    srun(["rm", "-rf", "main"])
 
 update = srun([f"git init -q \
                  && git config --global user.email huzunluartemis@tuta.io \
