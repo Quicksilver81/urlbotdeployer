@@ -8,7 +8,7 @@
     ],
     "env": {
       "CONFIG_FILE_URL": {
-        "description": "Bunu ANYTHING ayarlamak, env modundayken web kancalarını etkinleştirir",
+        "description": "Gist urlsi bul",
         "value": "ANYTHING"
       }
     }, 
