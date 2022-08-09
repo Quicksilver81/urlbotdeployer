@@ -6,6 +6,12 @@
       "urlbotuolmayanurlbotu",
       "gif"
     ],
+    "env": {
+      "WEBHOOK": {
+        "description": "Bunu ANYTHING ayarlamak, env modundayken web kancalarını etkinleştirir",
+        "value": "ANYTHING"
+      }
+    }, 
     "buildpacks": [{
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }, {
