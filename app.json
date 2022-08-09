@@ -7,7 +7,7 @@
       "gif"
     ],
     "env": {
-      "WEBHOOK": {
+      "CONFIG_FILE_URL": {
         "description": "Bunu ANYTHING ayarlamak, env modundayken web kancalarını etkinleştirir",
         "value": "ANYTHING"
       }
