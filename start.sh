@@ -1,1 +1,1 @@
-python3 update.py && cd KitapBot && python3 bot.py
+python3 update.py && cd URL-Yukleyici-1 && python3 bot.py
