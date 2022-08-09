@@ -28,7 +28,8 @@ python-dotenv
 pytz
 requests
 waybackpy
-heroku3pyrogram
+heroku3
+pyrogram
 tgcrypto
 motor
 marshmallow
