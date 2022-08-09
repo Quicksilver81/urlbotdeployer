@@ -6,6 +6,11 @@
       "urlbotuolmayanurlbotu",
       "gif"
     ],
+    "buildpacks": [{
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }, {
+      "url": "heroku/python"
+    }],
     "website": "https://github.com/",
     "repository": "https://github.com/",
     "formation": {
