@@ -1,5 +1,5 @@
 {
-  "name": "URL-Yukleyici",
+  "name": "urlbotdeployer",
   "description": "URL'leri Telegram'a Dosya ve Video Olarak Yüklemek için Telegram Botu.",
   "keywords": [
     "telegram"
