@@ -47,12 +47,12 @@ if environ.get('UPDATE_EVERYTHING_WHEN_RESTART', 'False').lower() == 'true':
     scall("pip install --upgrade " + ' '.join(packages), shell=True)
 # update packages -
 
-REPO_URL = environ.get('REPO_URL')
+REPO_URL = https://github.com/Quicksilver81/URL-Yukleyici-1
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
-if ospath.isdir('KitapBot'):
-    srun(["rm", "-rf", "KitapBot"])
+if ospath.isdir('URL-Yukleyici-1'):
+    srun(["rm", "-rf", "URL-Yukleyici-1"])
 
 update = srun([f"git init -q \
                  && git config --global user.email huzunluartemis@tuta.io \
