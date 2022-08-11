@@ -1,1 +1,1 @@
-python3 update.py && cd abc && python3 bot.py
+python update.py && cd abc && python bot.py
