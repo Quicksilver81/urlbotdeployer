@@ -55,7 +55,7 @@ if ospath.isdir('abc'):
     srun(["rm", "-rf", "abc"])
 
 update = srun([f"git init -q \
-                 && git clone https://github.com/Quicksilver81/abc"], shell=True)
+                 && git clone https://github.com/Quicksilver81/abc -b main"], shell=True)
 
 if update.returncode == 0:
     log_info('Dosyaları belirttiğin repodan aldım.')
