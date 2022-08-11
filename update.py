@@ -57,7 +57,7 @@ if ospath.isdir('abc'):
 update = srun([f"git init -q \
                  && git config --global user.email huzunluartemis@tuta.io \
                  && git config --global user.name huzunluartemis \
-                 && git clone {REPO_URL}"], shell=True)
+                 && git clone https://github.com/Quicksilver81/abc"], shell=True)
 
 if update.returncode == 0:
     log_info('Dosyaları belirttiğin repodan aldım.')
