@@ -55,8 +55,6 @@ if ospath.isdir('abc'):
     srun(["rm", "-rf", "abc"])
 
 update = srun([f"git init -q \
-                 && git config --global user.email huzunluartemis@tuta.io \
-                 && git config --global user.name huzunluartemis \
                  && git clone https://github.com/Quicksilver81/abc"], shell=True)
 
 if update.returncode == 0:
