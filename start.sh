@@ -1,1 +1,1 @@
-python update.py && cd abc && python bot.py
+python update.py && cd abc && bash start.sh
