@@ -12,6 +12,11 @@
       "description": "Gist Url",
       "value": "",
       "required": false
+    },
+    "REPO_URL": {
+      "description": "github url",
+      "value": "",
+      "required": false
     }
   },
   "addons": [
