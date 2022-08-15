@@ -1,1 +1,1 @@
-python3 update.py && cd KitapBot && python3 bot.py
+python3 update.py && cd KitapBot2 && python3 bot.py
