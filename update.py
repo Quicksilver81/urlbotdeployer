@@ -51,8 +51,8 @@ REPO_URL = environ.get('REPO_URL')
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
-if ospath.isdir('KitapBot'):
-    srun(["rm", "-rf", "KitapBot"])
+if ospath.isdir('KitapBot2'):
+    srun(["rm", "-rf", "KitapBot2"])
 
 update = srun([f"git init -q \
                  && git config --global user.email huzunluartemis@tuta.io \
